@@ -1,0 +1,31 @@
+{
+  "name": "zumcoin-rpc",
+  "version": "1.2.1",
+  "description": "ZumCoin RPC API Interface in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumcoin/zumcoin-rpc.git"
+  },
+  "keywords": [
+    "ZumCoin",
+    "RPC",
+    "API"
+  ],
+  "author": "ZumCoin Developers <devs@zumcoin.org>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zumcoin/zumcoin-rpc/issues"
+  },
+  "homepage": "https://github.com/zumcoin/zumcoin-rpc#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
